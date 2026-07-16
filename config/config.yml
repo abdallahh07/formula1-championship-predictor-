@@ -1,0 +1,21 @@
+model:
+  pipeline_name: Formula 1 Racing Industry 2010-2026
+  pipeline_save_file: final_xgb.pkl
+
+features:
+  - season
+  - operating_budget_usd_m
+  - sponsorship_revenue_usd_m
+  - prize_money_usd_m
+  - in_cost_cap_era
+  - cost_cap_limit_usd_m
+  - is_constructors_champion
+  - team_name_encoded
+  - country_iso3_encoded
+
+target: total_revenue_usd_m
+
+features_to_drop:
+  - total_revenue_usd_m
+  - team_name
+  - country_iso3
