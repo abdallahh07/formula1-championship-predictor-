@@ -12,7 +12,7 @@ with open(CONFIG_PATH,"r") as f:
   
 MODEL_NAME = config["model"]["pipeline_save_file"]
 FEATURES = config["features"]
-target = config["target"]
+TARGET = config["target"]
 DROP_FEATURES = config["features_to_drop"]
 
 MODEL_PATH = TRAINED_MODEL_DIR/MODEL_NAME 
