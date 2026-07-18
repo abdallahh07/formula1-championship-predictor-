@@ -219,7 +219,6 @@ __marimo__/
 
 data/
 trained_models/
-*.pkl
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
